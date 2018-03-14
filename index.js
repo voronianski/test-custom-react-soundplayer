@@ -9,7 +9,7 @@ const {
   withSoundCloudAudio
 } = require('react-soundplayer/addons');
 
-const streamUrl='https://s3-eu-west-1.amazonaws.com/react-soundplayer-examples/ksmtk-reborn-edit.mp3'
+const streamUrl='https://labs.voronianski.com/react-soundplayer-examples/ksmtk-reborn-edit.mp3'
 
 const MusicPlayer = withSoundCloudAudio(props => {
   return (
